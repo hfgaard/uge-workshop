@@ -1,0 +1,7 @@
+git branch will show you which branch you are currently on. The first/default branch is master.
+git branch new_branch will create a new branch
+git checkout new_branch will switch the branch
+
+you can change the upstream with -u
+git remote add origin (from github)
+git push -u origin master
