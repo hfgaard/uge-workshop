@@ -1,0 +1,108 @@
+    1  sml
+    2  sml
+    3  drutil eject external
+    4  pwd
+    5  cd /
+    6  ls
+    7  ls -t
+    8  ls -l
+    9  ls -lt
+   10  ls
+   11  ls -r
+   12  ls -ltr
+   13  man ls
+   14  man ls
+   15  ls a
+   16  ls -a
+   17  man ls
+   18  ls -p
+   19  man ls
+   20  cd /Users/hanafalls
+   21  cd /tmp
+   22  mkdir my\ folder
+   23  ls
+   24  cd my folder
+   25  cd my\ folder
+   26  cd
+   27  ls
+   28  ls -l
+   29  cd Applications/
+   30  ls -l
+   31  cd Movies
+   32  ls
+   33  cd
+   34  ls
+   35  cd Documents/
+   36  ls
+   37  ls -l
+   38  cd My Games
+   39  ls
+   40  cd My Games/
+   41  cd ..
+   42  cd Documents/My Games/
+   43  cd Documents/
+   44  cd My\ Games/
+   45  cd ../..
+   46  cd Documents/My\ Games/
+   47  cd ../..
+   48  ls -p
+   49  ls -p
+   50  cd Dropbox/
+   51  ls -p
+   52  cd Burning\ Man/
+   53  ls -p
+   54  cd ../../Desktop/
+   55  ls -p
+   56  cd School
+   57  ls -p
+   58  cd 2007-2008/
+   59  ls -p
+   60  cd Autumn\ 2007/
+   61  ls -p
+   62  cd
+   63  clear
+   64  ls ~
+   65  ls /
+   66  ls -p
+   67  ls Desktop/School/ -p
+   68  ls -p Desktop/School/
+   69  cd Desktop/cd
+   70  cd Downloads/
+   71  cd
+   72  clear
+   73  ls -p .
+   74  history
+   75  history 15
+   76  history | less
+   77  man less
+   78  history > my-history.txt
+   79  ls -p
+   80  subl my-history.txt 
+   81  less my-history.txt 
+   82  open /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl
+   83  subl my-history.txt 
+   84  sublime my-history.txt 
+   85  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+   86  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+   87  clear
+   88  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+   89  supo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+   90  clear
+   91  history | head
+   92  history | head -n 3
+   93  head my-history.txt 
+   94  mkdir uge_workshop
+   95  ls -p
+   96  mv my-history.txt ./uge_workshop/
+   97  ls -p
+   98  cd uge_workshop/
+   99  ls -p
+  100  clear
+  101  mv my-history.txt moving_around.txt
+  102  ls -p
+  103  clear
+  104  cd
+  105  cd uge_workshop/
+  106  mv moving_around.txt unix_notes.txt
+  107  ls
+  108  history > unix_notes.txt 
