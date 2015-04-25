@@ -106,3 +106,4 @@
   106  mv moving_around.txt unix_notes.txt
   107  ls
   108  history > unix_notes.txt 
+  A file that begins with a . is considered a hidden file

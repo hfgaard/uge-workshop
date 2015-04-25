@@ -1,0 +1,7 @@
+3 stages to Git
+	Working directory
+		file
+	Staging area
+		git add <file> the file is added to the staging area in addition to being in the working directory
+	Repository
+		git commit -m 'notes' the file is added to the repo and removed from the staging area.
